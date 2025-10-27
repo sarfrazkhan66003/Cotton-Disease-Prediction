@@ -88,6 +88,7 @@ The model is built on Transfer Learning using the ResNet152V2 architecture.
 
 
 📊 Output
+
 🌱 Input:
 An image of a cotton leaf or plant (healthy or diseased).
 🔍 Output:
