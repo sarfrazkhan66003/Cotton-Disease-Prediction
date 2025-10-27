@@ -1,8 +1,10 @@
 🧠 Cotton Disease Prediction using Deep Learning
+
 This project is an AI-powered web application that detects diseases in cotton plants from leaf images using a ResNet152V2 deep learning model.
 It helps farmers and researchers identify plant health conditions early, preventing crop loss and improving agricultural productivity. 🌿
 
 🚀 Project Overview
+
 The system takes an image of a cotton leaf or plant as input and classifies it into one of the following categories:
 1️⃣ Diseased Cotton Leaf
 2️⃣ Diseased Cotton Plant
@@ -11,6 +13,7 @@ The system takes an image of a cotton leaf or plant as input and classifies it i
 It uses a Convolutional Neural Network (CNN) based on ResNet152V2 for image classification, trained on a custom dataset of cotton plant images.
 
 📁 Project Structure
+
 Cotton-Disease-Prediction/
 │
 ├── app.py                     # Flask web app
@@ -23,12 +26,14 @@ Cotton-Disease-Prediction/
 └── README.md                  # Documentation
 
 🧠 Classes Predicted
+
 | Label | Description           |
 | ----- | --------------------- |
 | 🧪 0  | Diseased Cotton Leaf  |
 | 🌿 1  | Diseased Cotton Plant |
 | 🍃 2  | Fresh Cotton Leaf     |
 | 🌱 3  | Fresh Cotton Plant    |
+
 
 🧩 Features
 
@@ -38,7 +43,9 @@ Cotton-Disease-Prediction/
 ✅ Automated Preprocessing — image normalization, resizing, and prediction pipeline
 ✅ Model Deployment Ready — can be hosted locally or on platforms like Render, HuggingFace
 
+
 🧠 Algorithm and Model Architecture
+
 The model is built on Transfer Learning using the ResNet152V2 architecture.
 🔹 Steps Involved:
 
@@ -65,6 +72,8 @@ The model is built on Transfer Learning using the ResNet152V2 architecture.
     Saved as model_resnet152V2.h5
     Integrated into Flask app (app.py)
 
+    
+
 ⚙️ Tech Stack
 | Category                  | Tools / Libraries                   |
 | ------------------------- | ----------------------------------- |
@@ -75,6 +84,8 @@ The model is built on Transfer Learning using the ResNet152V2 architecture.
 | **Model**                 | ResNet152V2                         |
 | **IDE/Environment**       | Jupyter Notebook, VS Code, Anaconda |
 | **Deployment (Optional)** | Render / Heroku / AWS EC2           |
+
+
 
 📊 Output
 🌱 Input:
